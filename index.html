@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Biblioteca MM</title>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1" />
+    <meta name="author" content="Nicolas Porras - @NicolasHtk" />
+    <meta name="description" content="Biblioteca Mario Mendoza" />
+    <meta name="keywords" content="Biblioteca, Mario Mendoza, Libros" />
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+
+</head>
+
+<body class="parallax">
+    <header>
+        <section id="logo" class="text-center col-lg-9 col-md-9 col-sm-12 p-2 mt-1">
+            <img src="img/logos/logo_2.png" alt="logo" />
+        </section>
+
+
+        <!-- buscador -->
+        <section id="find" class="col-lg-3 col-md-12 col-sm-12 d-flex justify-content-center p-2 mt-1">
+            <form class="form-inline">
+                <input class="form-control mr-2 boton" type="search" placeholder="Buscar" aria-label="Buscar" />
+                <button class="col boton btn btn-outline-primary" type="submit">Buscar</button>
+            </form>
+        </section>
+        <!-- aunque aun no funciona xd -->
+
+        <section id="login" class="col-lg-3 col-md-12 col-sm-12 d-flex justify-content-center p-2 mt-1">
+            <form class="form-inline">
+                <button class="btn btn-outline-primary mr-2" type="submit">
+                    Iniciar sesión
+                </button>
+                <button class="btn btn-outline-primary ml-2" type="submit">
+                    Registrarse
+                </button>
+            </form>
+        </section>
+    </header>
+
+    <!-- Menú -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark fondonav">
+        <a class="navbar-brand" href="/">BIBLIOTECA MM</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <section class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Inicio
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                        aria-haspopup="true" aria-expanded="false">Categorias</a>
+                    <article class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Novelas</a>
+                        <a class="dropdown-item" href="#">Cuentos</a>
+                        <a class="dropdown-item" href="#">Cómics</a>
+                        <article class="dropdown-divider"></article>
+                        <a class="dropdown-item" href="#">Otras</a>
+                    </article>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Adultos.html">Adultos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contactenos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Catalogo</a>
+                </li>
+            </ul>
+        </section>
+    </nav>
+
+    <!-- menú -->
+
+    <main class="page container mycontainer">
+        <section id="text" class="row col-lg-9 col-md-12 col-sm-12 mt-1">
+            <!-- Entradas -->
+
+            <!-- Titulo de la seccion -->
+            <article class="container text-center m-4">
+                <h2>Ejemplares recientes</h2>
+            </article>
+
+            <!-- titulo de la seccion -->
+
+            <!-- entrada 1 -->
+            <section class="col-sm-6 col-md-4 col-lg-4">
+                <article class="card p-2 shadow mb-5">
+                    <a tile="Buda blues" href="#">
+                        <img src="img/covers/Lady_Masacre_Cover.jpg" class="card-img-top" alt="Portada Buda blues" />
+                    </a>
+                    <article class="card-body text-center">
+                        <h5 class="card-title">Buda blues</h5>
+                        <p class="card-text">Autor: <a href="#">Mario Mendoza.</a></p>
+                        <a href="#" class="btn btn-primary">Solicitar libro</a>
+                    </article>
+                </article>
+            </section>
+            <!-- entrada 1 -->
+
+            <!-- entrada 2 -->
+            <section class="col-sm-6 col-md-4 col-lg-4">
+                <article class="card p-2 shadow mb-5">
+                    <a tile="Akelarre" href="#">
+                        <img src="img/covers/Akelarre_Cover.jpg" class="card-img-top" alt="Portada Akelarre" />
+                    </a>
+                    <article class="card-body text-center">
+                        <h5 class="card-title">Akelarre</h5>
+                        <p class="card-text">Autor: <a href="">Mario Mendoza.</a></p>
+                        <a href="#" class="btn btn-primary">Solicitar libro</a>
+                    </article>
+                </article>
+            </section>
+            <!-- entrada 2 -->
+
+            <!-- entrada 3 -->
+            <section class="col-sm-6 col-md-4 col-lg-4">
+                <article class="card p-2 shadow mb-5">
+                    <a tile="Apocalipsis" href="#">
+                        <img src="img/covers/Apocalipsis_Cover.jpg" class="card-img-top" alt="Portada Apocalipsis" />
+                    </a>
+                    <article class="card-body text-center">
+                        <h5 class="card-title">Apocalipsis</h5>
+                        <p class="card-text">Autor: <a href="">Mario Mendoza.</a></p>
+                        <a href="#" class="btn btn-primary">Solicitar libro</a>
+                    </article>
+                </article>
+            </section>
+            <!-- entrada 3 -->
+
+            <!-- paginacion pg1 -->
+
+            <nav aria-label="Page navigation example" class="col-12">
+                <ul class="pagination justify-content-center">
+                    <li class="page-item disabled">
+                        <a class="page-link" href="#" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                        </a>
+                    </li>
+                    <li class="page-item active">
+                        <a class="page-link" href="#">1</a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item"><a class="page-link" href="#">4</a></li>
+                    <li class="page-item"><a class="page-link" href="#">5</a></li>
+
+                    <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- paginacion pg1 -->
+
+            <!-- entradas -->
+        </section>
+
+        <aside id="right" class="text-center mt-1 col-lg-3 col-md-12 col-sm-12">
+            <section>
+
+            </section>
+            <!-- aquí va la publicidad vertical -->
+            <hr />
+            <h5>
+                DESTACADOS DEL <br />
+                MES
+            </h5>
+
+            <section class="slide-contenedor">
+
+                <section class="card-body">
+                    <section class="slide-contenedor">
+                        <article class="miSlider">
+                            <img src="img/Cuadros/mf_Cuadro.png" alt="">
+                        </article>
+                        <article class="miSlider">
+                            <img src="img/Cuadros/Satanas_Cuadro.png" alt="">
+                        </article>
+                        <article class="miSlider">
+                            <img src="img/Cuadros/Pc_Cuadro.png" alt="">
+                        </article>
+                        <article class="direcciones">
+                            <a href="#" class="atras" onclick="avanzaSlide(-1)">&#10094;</a>
+                            <a href="#" class="adelante" onclick="avanzaSlide(1)">&#10095;</a>
+                        </article>
+                        <article class="barras">
+                            <span class="barra active" onclick="posicionSlide(1)"></span>
+                            <span class="barra" onclick="posicionSlide(2)"></span>
+                            <span class="barra" onclick="posicionSlide(3)"></span>
+                        </article>
+                    </section>
+                </section>
+
+
+            </section>
+
+            <h5>DESTACADOS DE <br />LA SEMANA</h5>
+
+            <section class="card-body">
+                <a tile="La melancolia de los feos" href="#">
+                    <img src="img/Cuadros/mf_Cuadro.png" class="img-fluid cuadro" alt="La melancolia de los feos" />
+                </a>
+            </section>
+        </aside>
+    </main>
+
+    <!-- <footer>
+        <p class="container-fluid py-5 text-center">
+            COPYRIGHT © 2020 Nicolas Porras, ALL RIGHTS RESERVED
+        </p>
+    </footer> -->
+
+    <footer class="navbar bottom fondonav">
+        <p class="container-fluid py-5 text-center">
+            COPYRIGHT © 2020 Nicolas Porras, ALL RIGHTS RESERVED
+            <a href="#top">Back to top</a>
+        </p>
+    </footer>
+
+    <!-- Popper.js JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
+
+    <script src="js/main.js">
+    </script>
+
+
+</body>
+
+</html>
